@@ -4,11 +4,11 @@
 
 **Road segment**: 
 
-Road segment is a directed edge with two terminal points
+> Road segment is a directed edge with two terminal points
 
 **Trajectory**: 
 
-A spatial trajectory *Tr* is a sequence of time-ordered points, 􏰦􏰠: 􏰱􏰡 􏰢 􏰱􏰣 􏰢 􏰲 􏰢 􏰱􏰳 , where each point has a geospatial coordinate set and a timestamp, 􏰱 􏰴 􏰵􏰶, 􏰷, 􏰸􏰹.
+> A spatial trajectory *Tr* is a sequence of time-ordered points, 􏰦􏰠: 􏰱􏰡 􏰢 􏰱􏰣 􏰢 􏰲 􏰢 􏰱􏰳 , where each point has a geospatial coordinate set and a timestamp, 􏰱 􏰴 􏰵􏰶, 􏰷, 􏰸􏰹.
 
 
 ### A Simple Baseline for Travel Time Estimation using Large-Scale Trip Data
