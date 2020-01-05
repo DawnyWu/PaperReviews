@@ -1,6 +1,6 @@
 ## Different Approach
 
-### the route-based solution
+### The route-based solution
 
 > the overall travel time of a given route is formulated as the summation of the travel time through each road segment1 and the delay time at each intersection
 
@@ -10,14 +10,14 @@
 
 > estimate the travel time on individual road segments first and then take the sum over all the road segments of the query route as the travel time estimation. 
 
-Segment-based method does not consider the transition time between road segments such as waiting for traffic lights and making left/right turns.
+> Segment-based method does not consider the transition time between road segments such as waiting for traffic lights and making left/right turns.
 
 
 * #### Path-based method
 
 > considering the time spent on intersections
 
-
+### The data-driven solution
 
 
 
