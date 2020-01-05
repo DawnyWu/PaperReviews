@@ -8,7 +8,25 @@
 
 **Trajectory**: 
 
-> A spatial trajectory *Tr* is a sequence of time-ordered points, 􏰦􏰠: 􏰱􏰡 􏰢 􏰱􏰣 􏰢 􏰲 􏰢 􏰱􏰳 , where each point has a geospatial coordinate set and a timestamp, 􏰱 􏰴 􏰵􏰶, 􏰷, 􏰸􏰹.
+> A spatial trajectory *Tr* is a sequence of time-ordered points, *Tr: p<sub>1</sub> -> p<sub>2</sub> -> ... -> p<sub>n</sub>* , where each point has a geospatial coordinate set and a timestamp, *p = (x, y, t)*.
+
+**Path**: 
+A path *P* is represented by a sequence of connected road segments, e.g., *P: r<sub>1</sub> -> r<sub>2</sub> -> ... -> r<sub>n</sub>*, in an *RN*.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### A Simple Baseline for Travel Time Estimation using Large-Scale Trip Data
