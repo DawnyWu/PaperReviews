@@ -40,7 +40,7 @@ Segment-based method does not consider the transition time between road segments
 
 We propose a model, called ST-NN (Spatio-Temporal Neural Network), which first predicts the travel distance between an origin and a destination GPS coordinate, then combines this prediction with the time of day to predict the travel time.
 
-![a_unified](ForMaoImgs/a_unified.png)
+![a_unified](ForMao/a_unified.png)
 
 
 
