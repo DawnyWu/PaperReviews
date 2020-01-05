@@ -13,11 +13,54 @@
 > Segment-based method does not consider the transition time between road segments such as waiting for traffic lights and making left/right turns.
 
 
+[1]C. de Fabritiis, R. Ragona, and G. Valenti, “Traffic Estimation And Prediction Based On Real Time Floating Car Data,” in 2008 11th International IEEE Conference on Intelligent Transportation Systems, Beijing, China, 2008, pp. 197–203, doi: 10.1109/ITSC.2008.4732534.
+
+（基于60万意大利私家车实时GPS数据，每三分钟估计一次道路速度）
+
 * #### Path-based method
 
 > considering the time spent on intersections
 
+
+
 ### The data-driven solution
+
+> do not predict the traffic speed and travel time on each road segment
+
+> directly predict the travel time of the whole route at a future time period based on its historical travel time
+
+
+
+* #### 转化为时间序列问题 ####
+
+> D. Billings and J.-S. Yang, “Application of the ARIMA Models to Urban Roadway Travel Time Prediction - A Case Study,” in 2006 IEEE International Conference on Systems, Man and Cybernetics, 2006, vol. 3, pp. 2529–2534, doi: 10.1109/ICSMC.2006.385244.
+
+
+> Y. Duan, Y. L.V., and F.-Y. Wang, “Travel time prediction with LSTM neural network,” in 2016 IEEE 19th International Conference on Intelligent Transportation Systems (ITSC), Rio de Janeiro, 2016, pp. 1053–1058, doi: 10.1109/ITSC.2016.7795686.
+
+Drawback: The travel time prediction is restricted to several fixed routes. It is difficult to be generalized into the un- seen routes, which limits the scalability of the problem
+
+* #### estimate the travel time of a queried route using a weighted average of its neighboring trips, which refer to the trips with similar origin and destination locations. 
+H. Wang, Z. Li, Y.-H. Kuo, and D. Kifer, “A Simple Baseline for Travel Time Estimation using Large-Scale Trip Data,” arXiv:1512.08580 [cs], Dec. 2015.
+
+(自称计算的为origin-destination (OD) travel time)
+
+Drawback: The insufficient data coverage problem still exists. It is difficult to obtain the travel time at all historical time periods for the queried route or even a similar route
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
