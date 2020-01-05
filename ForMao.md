@@ -48,14 +48,19 @@ and c<sub>i</sub>
 
 Drawback: The travel time prediction is restricted to several fixed routes. It is difficult to be generalized into the unseen routes, which limits the scalability of the problem
 
-* #### using a weighted average of its neighboring trips(which refer to the trips with similar origin and destination) locations. 
+* #### Using a weighted average of its neighboring trips(which refer to the trips with similar origin and destination) locations. 
 > H. Wang, Z. Li, Y.-H. Kuo, and D. Kifer, “A Simple Baseline for Travel Time Estimation using Large-Scale Trip Data,” arXiv:1512.08580 [cs], Dec. 2015.(自称计算的为origin-destination (OD) travel time)
 
 Drawback: The insufficient data coverage problem still exists. It is difficult to obtain the travel time at all historical time periods for the queried route or even a similar route
 
+* #### 深度学习类 ####
+
+>I. Jindal, Tony, Qin, X. Chen, M. Nokleby, and J. Ye, “A Unified Neural Network Approach for Estimating Travel Time and Distance for a Taxi Trip,” arXiv:1710.04350 [cs, stat], Oct. 2017.（只输入起点终点坐标和时间窗口，输出时间和距离）
+
+![a_unified](ForMao/a_unified.png)
 
 
-
+> Z. Wang, K. Fu, and J. Ye, “Learning to Estimate the Travel Time,” in Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining  - KDD ’18, London, United Kingdom, 2018, pp. 858–866, doi: 10.1145/3219819.3219900.
 
 
 
@@ -87,7 +92,8 @@ Drawback: The insufficient data coverage problem still exists. It is difficult t
 **Path**: 
 > A path *P* is represented by a sequence of connected road segments, e.g., *P: r<sub>1</sub> -> r<sub>2</sub> -> ... -> r<sub>n</sub>*, in an *RN*.
 
-## Papers
+
+## Some Papers
 
 
 
