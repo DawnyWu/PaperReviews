@@ -6,14 +6,14 @@
 
 ![image](ForMao/route_based_sum.png)
 
-#### Segment-based method 
+* #### Segment-based method 
 
 > estimate the travel time on individual road segments first and then take the sum over all the road segments of the query route as the travel time estimation. 
 
 Segment-based method does not consider the transition time between road segments such as waiting for traffic lights and making left/right turns.
 
 
-#### Path-based method
+* #### Path-based method
 
 > considering the time spent on intersections
 
