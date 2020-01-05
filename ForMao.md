@@ -1,17 +1,20 @@
 * Segment-based method
 * Path-based method
 
+**Road Network**
+> A road network *RN* is comprised of a set of road segments *{ r }* connected among each other in a graph format.
 
 **Road segment**: 
 
-> Road segment is a directed edge with two terminal points
+> Road segment *r* is a directed edge with two terminal points
 
 **Trajectory**: 
 
 > A spatial trajectory *Tr* is a sequence of time-ordered points, *Tr: p<sub>1</sub> -> p<sub>2</sub> -> ... -> p<sub>n</sub>* , where each point has a geospatial coordinate set and a timestamp, *p = (x, y, t)*.
 
 **Path**: 
-A path *P* is represented by a sequence of connected road segments, e.g., *P: r<sub>1</sub> -> r<sub>2</sub> -> ... -> r<sub>n</sub>*, in an *RN*.
+> A path *P* is represented by a sequence of connected road segments, e.g., *P: r<sub>1</sub> -> r<sub>2</sub> -> ... -> r<sub>n</sub>*, in an *RN*.
+
 
 
 
