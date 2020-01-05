@@ -4,7 +4,7 @@
 
 > the overall travel time of a given route is formulated as the summation of the travel time through each road segment1 and the delay time at each intersection
 
-![image](route_based_sum.png)
+![image](ForMao/route_based_sum.png)
 
 #### Segment-based method 
 
@@ -40,7 +40,7 @@ Segment-based method does not consider the transition time between road segments
 
 We propose a model, called ST-NN (Spatio-Temporal Neural Network), which first predicts the travel distance between an origin and a destination GPS coordinate, then combines this prediction with the time of day to predict the travel time.
 
-
+![a_unified](ForMaoImgs/a_unified.png)
 
 
 
