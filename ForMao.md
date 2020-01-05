@@ -20,6 +20,10 @@ Segment-based method does not consider the transition time between road segments
 
 
 
+
+
+## Definition
+
 **Road Network**
 > A road network *RN* is comprised of a set of road segments *{ r }* connected among each other in a graph format.
 
@@ -33,6 +37,18 @@ Segment-based method does not consider the transition time between road segments
 
 **Path**: 
 > A path *P* is represented by a sequence of connected road segments, e.g., *P: r<sub>1</sub> -> r<sub>2</sub> -> ... -> r<sub>n</sub>*, in an *RN*.
+
+## Papers
+
+
+
+### A Simple Baseline for Travel Time Estimation using Large-Scale Trip Data(2015)
+
+To the best of our knowledge, we are **the first** to directly work on such origin-destination (OD) travel time queries
+
+We call our method as *neighbor-based method*. The biggest benefit of our approach is its simplicity.
+
+### Travel time prediction with LSTM neural network(2016)
 
 
 ### A Unified Neural Network Approach for Estimating Travel Time and Distance for a Taxi Trip(2017) ###
@@ -54,13 +70,6 @@ We propose a model, called ST-NN (Spatio-Temporal Neural Network), which first p
 
 
 
-### A Simple Baseline for Travel Time Estimation using Large-Scale Trip Data(2015)
-
-To the best of our knowledge, we are **the first** to directly work on such origin-destination (OD) travel time queries
-
-We call our method as *neighbor-based method*. The biggest benefit of our approach is its simplicity.
-
-### Travel time prediction with LSTM neural network(2016)
 
 
 
